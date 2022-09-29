@@ -1,4 +1,4 @@
-.activity-title {
+.activity__title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -12,11 +12,11 @@ img {
   display: block;
 }
 
-.activity-item {
+.activity__item {
   position: relative;
 }
 
-.activity-after-title {
+.activity__after-title {
   position: absolute;
   width: 100%;
   height: 70px;
@@ -34,7 +34,7 @@ img {
   background: rgba(47, 48, 58, 0.8);
 }
 
-.activity-list {
+.activity__list {
   display: flex;
   column-gap: 30px;
   margin: 50px 0px 0px 0px;
