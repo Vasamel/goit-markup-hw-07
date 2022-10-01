@@ -28,13 +28,10 @@
   }
 }
 
-.header__logo {
+.logo {
   align-items: center;
   color: var(--main-dark-color);
   margin-right: 91px;
-}
-
-.logo {
   font-family: "Raleway";
   font-weight: 700;
   font-size: 26px;
@@ -42,9 +39,15 @@
   letter-spacing: 0.03em;
 }
 
-.logo__blue {
+.blue {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19; /* identical to box height */
+  letter-spacing: 0.03em;
   color: var(--accent-color);
 }
+
 
 .navigation__list {
   display: block;
